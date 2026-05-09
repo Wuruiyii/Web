@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>在线报名</title>
+    <style>
+        body{
+            font-size: 12px;
+            font-family: "宋体";
+            color: #515151;
+        }
+        *{
+            margin:0px;
+            padding: 0px;
+            border: 0px;
+        }
+        .wai{
+            width: 660px;
+            height: 600px;
+            border: 1px solid #CCC;
+            border-radius:20px;
+            padding: 20px;
+            margin: 50px auto;
+
+        h2{
+            font-size: 22px;
+            color: #0b0b0b;
+            padding-bottom: 30px;
+        }
+        .s {
+            font-size: 12px;
+        }
+        .left {
+            width: 78px;
+            padding-right: 8px;
+            text-align: right;
+            padding-bottom: 26px;
+        }
+        .right {
+            text-align: left;
+            padding-bottom: 26px;
+        }
+            .red{
+                color: red;
+            }
+        }
+        .one{
+            border: 1px solid #CCC;
+            border-radius: 5px;
+        }
+        .dan{
+            padding-left: 26px;
+            padding-bottom: 3px;
+            padding-right: 3px;
+            padding-top: 3px;
+            font-size: 12px;
+            color: #949494;
+            width: 264px;
+            height: 12px;
+            background: url("images/name.png") no-repeat 2px center ;
+        }
+        .two{
+            background: url("images/phone.png") no-repeat 2px center ;
+        }
+        .three{
+            width: 122px;
+            height: 12px;
+            background: url("images/email.png") no-repeat 2px center;
+        }
+        .duo{
+            width: 432px;
+            height: 164px;
+            color: #949494;
+            padding: 3px;
+        }
+    </style>
+</head>
+<body>
+<div class="wai">
+<h2>下面就开始在线报名吧<span class="s">(以下信息是报名的重要依据，请认真填写)</span></h2>
+    <table>
+        <tr>
+            <td class="left">姓名<span class="red">*</span> </td>
+            <td class="right"><input type="text" placeholder="报名的重要依据，请认真填写" class="one dan"></td>
+        </tr>
+        <tr>
+            <td class="left">手机<span class="red">*</span></td>
+            <<td class="right"><input type="text" placeholder="报名的重要依据，请认真填写" class="one dan two"></td>
+        </tr>
+        <tr>
+            <td class="left">性别<span class="red">*</span></td>
+            <td class="right">
+                <input type="radio" name="sex">女
+                <input type="radio" name="sex" checked>男
+            </td>
+        </tr>
+        <tr>
+            <td class="left">邮箱<span class="red">*</span></td>
+            <td class="right">
+                <input type="text" class="one three">
+            </td>
+        </tr>
+        <tr>
+            <td class="left">意向课程<span class="red">*</span></td>
+            <td class="right">
+                <select>
+                    <option>网页平面UI设计基础班</option>
+                    <option>网页平面UI设计就业班</option>
+                    <option>网页平面UI设计周末班</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td class="left">了解渠道</td>
+            <td class="right">
+                <input type="checkbox" value="baidu"> baidu
+                <input type="checkbox" name=""> 老字员
+                <input type="checkbox" name=""> 朋友推荐
+                <input type="checkbox" name=""> CSDN网站
+                <input type="checkbox" name=""> 视频教程
+                <input type="checkbox" name=""> 其它
+            </td>
+        </tr>
+        <tr>
+            <td class="left">留言</td>
+            <td>
+                <textarea rows="" cols="" class="one duo">默认文字</textarea>
+            </td>
+        </tr>
+        <tr>
+            <td class="left">
+                <input type="button" value="提交">
+            </td>
+            <td class="right"></td>
+        </tr>
+    </table>
+</div>
+
+</body>
+</html>
